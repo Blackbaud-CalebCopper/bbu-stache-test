@@ -12,20 +12,12 @@ export class AppNavComponent {
       path: '/'
     },
     {
-      name: 'Learn',
-      path: '/learn'
-    },
-    {
-      name: 'API',
-      path: '/api'
+      name: 'Raisers Edge NXT',
+      path: '/renxt'
     },
     {
       name: 'Support',
       path: '/support'
     },
-    {
-      name: 'Contribute',
-      path: '/contribute'
-    }
   ];
 }
