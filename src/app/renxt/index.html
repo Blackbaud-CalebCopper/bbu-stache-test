@@ -2,7 +2,7 @@
 </app-nav>
 
 <stache
-  pageTitle="Awesome Documentation"
+  pageTitle="Raiser's Edge NXT Training Path"
   showTableOfContents="true"
   navOrder="1" >
 
@@ -14,9 +14,29 @@
     Section One
   </stache-page-anchor>
 
-<stache-image imageSource="~/assets​/hero-sample-1.jpg">
-</stache-image>
+  <stache-page-anchor>
+    Learning Paths
+  </stache-page-anchor>
+<p>Select your role to see which classes you should take:</p>
 
-<p><a stacheRouterLink="/support/changelog">Good stuff can be found in our Changelog.</a></p>
+<sky-tabset>
+  <sky-tab tabHeading="Fundraising">
+    <ul>
+      <li><a href={{stache.jsonData.example.funDataEntry.courseURL}} target="_blank">{{stache.jsonData.example.funDataEntry.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      <li><a href={{stache.jsonData.example.funFund.courseURL}} target="_blank">{{stache.jsonData.example.funFund.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    </ul>
+  </sky-tab>
+  <sky-tab tabHeading="Marketing">
+    <ul>
+      <li><a href={{stache.jsonData.example.funDataEntry.courseURL}} target="_blank">{{stache.jsonData.example.funDataEntry.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    </ul>
+  </sky-tab>
+  <sky-tab tabHeading="Database Administration">
+    <ul>
+      <li><a href={{stache.jsonData.example.funFund.courseURL}} target="_blank">{{stache.jsonData.example.funFund.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    </ul>
+  </sky-tab>
+</sky-tabset>
+
 
 </stache>
