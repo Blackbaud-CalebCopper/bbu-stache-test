@@ -14,12 +14,38 @@
 
 <sky-repeater expandMode="multiple">
   <sky-repeater-item [isExpanded]="false">
-    <sky-repeater-item-title>Fundraising</sky-repeater-item-title>
+    <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
     <sky-repeater-item-content>
-      <ul>
-        <li><a href={{stache.jsonData.example.funDataEntry.courseURL}} target="_blank">{{stache.jsonData.example.funDataEntry.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-        <li><a href={{stache.jsonData.example.funFund.courseURL}} target="_blank">{{stache.jsonData.example.funFund.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-      </ul>
+      <p>Choose one of the following options</p>
+      <sky-repeater expandMode="multiple">
+        <sky-repeater-item [isExpanded]="false">
+          <sky-repeater-item-title>Fundamentals Series</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.funDataEntry.courseURL}} target="_blank">{{stache.jsonData.example.funDataEntry.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.funFund.courseURL}} target="_blank">{{stache.jsonData.example.funFund.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+
+        <sky-repeater-item [isExpanded]="false">
+          <sky-repeater-item-title>Fundamentals Exam</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li>Fundamentals Exam</li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+
+        <sky-repeater-item [isExpanded]="false">
+          <sky-repeater-item-title>Fundamentals Bootcamp (In-Person Regional)</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li>Fundamentals Bootcamp</li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+      </sky-repeater>
     </sky-repeater-item-content>
   </sky-repeater-item>
 
