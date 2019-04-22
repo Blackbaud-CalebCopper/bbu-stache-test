@@ -1,20 +1,58 @@
 {
-  "funDataEntry" :
+  "basicsBBAM" :
   {
-    "courseName": "Fundamentals--Overview and Data Entry",
-    "abstractURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/RE_NXT/RENXT_FUN_Overview_and_Data_Entry/RENXT_FUN_Overview_and_Data_Entry_Abstract.pdf",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253de7da3682-33fc-4524-995f-10dd6278d1c5"
+    "courseName": "Basics of Blackbaud Award Management",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d81e2243a-f93e-44c6-a6c2-f093bf045983"
   },
-  "funFund":
+  "basicsQUES" :
   {
-    "courseName": "Fundamentals--Fundraising",
-    "abstractURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/RE_NXT/RENXT_FUN_Fundraising/RENXT_FUN_Fundraising_Abstract.pdf",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d581fd3a7-16dc-4a29-a46c-f41dc9d542e4"
+    "courseName": "Basics of Questions and Qualifications",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253dbe2e0073-da23-4c5a-ae89-6bed7dfb486b"
   },
-  "Fundamentals Bootcamp":
+  "basicsREVI" :
   {
-    "courseName": "Fundamentals Bootcamp",
-    "abstractURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/RE_NXT/Regionals/RENXT_Fundamentals_Bootcamp/RENXT_Fundamentals_Bootcamp_Abstract.pdf",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d9afa1f2d-2343-4c5f-b065-ded4c5af679b"
+    "courseName": "Basics of Reviews",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d3ea1aac7-716a-4a79-ad97-05c326e126a7"
+  },
+  "FUOV":
+  {
+    "courseName": "Fundamentals—Overview",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d95200110-30c4-4b75-8c20-8d12ea793dfb"
+  },
+  "FUAW":
+  {
+    "courseName": "Fundamentals—Awarding Cycle",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d7ee5faa0-11d5-4790-b6eb-8957cc178391"
+  },
+  "CERT":
+  {
+    "courseName": "Fundamentals Exam",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d5dfcedd9-06b5-45ab-9721-9739abcb155c"
+  },
+
+  "WRQU":
+  {
+    "courseName": "Writing Quality Questions and Qualifications",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d6ca727ec-34ac-4f94-a1a8-85b80bafb461"
+  },
+  "MARE":
+  {
+    "courseName": "Managing Reviews",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253decc63b42-b536-44ed-b982-ab642787c1d5"
+  },
+  "RENE":
+  {
+    "courseName": "Renewals",
+    "courseURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Renewals/Blackbaud_Award_Management_Renewals_Abstract.pdf"
+  },
+  "STEW":
+  {
+    "courseName": "Stewardship",
+    "courseURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_stewardship/Blackbaud_Award_Management_stewardship_Abstract.pdf"
+  },
+  "SYAD":
+  {
+    "courseName": "System Administration",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d8d44faa2-745f-4b4b-b234-cbf4b6e1f235"
   }
 }

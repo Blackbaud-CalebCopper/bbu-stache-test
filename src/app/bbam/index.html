@@ -1,0 +1,180 @@
+<app-nav>
+</app-nav>
+
+<stache
+  pageTitle="Blackbaud Award Management Training Curriculum"
+  showTableOfContents="true"
+  navOrder="1" >
+
+  <stache-page-summary>Scroll down to your role to see which classes you should take. Or, scroll to the bottom of the page to see our full course listings.</stache-page-summary>
+
+  <stache-page-anchor>
+    System Basics
+  </stache-page-anchor>
+  <p>For quick overviews of system functionality, check out our eLearning courses.</p>
+  <ul>
+    <li><a href={{stache.jsonData.example.basicsBBAM.courseURL}} target="_blank">{{stache.jsonData.example.basicsBBAM.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    <li><a href={{stache.jsonData.example.basicsQUES.courseURL}} target="_blank">{{stache.jsonData.example.basicsQUES.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    <li><a href={{stache.jsonData.example.basicsREVI.courseURL}} target="_blank">{{stache.jsonData.example.basicsREVI.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+  </ul>
+
+<stache-page-anchor>
+  Opportunity Administrator
+</stache-page-anchor>
+  <p>Opportunity administrators typically create and manage portfolios, opportunities, and applications. They may also build and administer review committees and make award offers to students. Take the following classes to improve your skills.</p>
+
+<sky-repeater expandMode="multiple">
+  <sky-repeater-item [isExpanded]="false">
+    <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+    <sky-repeater-item-content>
+      <p>Choose one of the following options</p>
+      <sky-repeater expandMode="multiple">
+        <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Fundamentals Series</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+
+        <sky-repeater-item [isExpanded]="false">
+          <sky-repeater-item-title>Fundamentals Exam</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+
+        </sky-repeater>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>System Build</sky-repeater-item-title>
+        <sky-repeater-item-content>
+          <ul>
+            <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li><a href={{stache.jsonData.example.MARE.courseURL}} target="_blank">{{stache.jsonData.example.MARE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li><a href={{stache.jsonData.example.RENE.courseURL}} target="_blank">{{stache.jsonData.example.RENE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          </ul>
+    </sky-repeater-item-content>
+  </sky-repeater-item>
+</sky-repeater>
+
+
+<stache-page-anchor>
+    Stewardship Administrator
+</stache-page-anchor>
+
+<p>Stewardship administrators typically create and manage donor profiles and contacts. They also edit and publish fund snapshots, receipients, and disbursements and send out updates and reports to donor contacts. Take the following classes to improve your skills.</p>
+
+<sky-repeater expandMode="multiple">
+  <sky-repeater-item [isExpanded]="false">
+    <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+    <sky-repeater-item-content>
+      <p>Choose one of the following options</p>
+      <sky-repeater expandMode="multiple">
+        <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Fundamentals Series</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+
+        <sky-repeater-item [isExpanded]="false">
+          <sky-repeater-item-title>Fundamentals Exam</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+          </sky-repeater-item-content>
+        </sky-repeater-item>
+
+        </sky-repeater>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+  <sky-repeater-item [isExpanded]="false">
+    <sky-repeater-item-title>Stewardship</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <ul>
+          <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+    </sky-repeater-item-content>
+  </sky-repeater-item>
+</sky-repeater>
+
+
+
+<stache-page-anchor>
+System Administrator
+</stache-page-anchor>
+
+<p>System administrators typically maintain their database, including system configuration and global processes. Take the following classes to improve your skills.</p>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <p>Choose one of the following options</p>
+        <sky-repeater expandMode="multiple">
+          <sky-repeater-item [isExpanded]="false">
+          <sky-repeater-item-title>Fundamentals Series</sky-repeater-item-title>
+            <sky-repeater-item-content>
+              <ul>
+                <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+            </sky-repeater-item-content>
+          </sky-repeater-item>
+
+          <sky-repeater-item [isExpanded]="false">
+            <sky-repeater-item-title>Fundamentals Exam</sky-repeater-item-title>
+            <sky-repeater-item-content>
+              <ul>
+                <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+            </sky-repeater-item-content>
+          </sky-repeater-item>
+
+        </sky-repeater>
+      </sky-repeater-item-content>
+      </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Build</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.MARE.courseURL}} target="_blank">{{stache.jsonData.example.MARE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.RENE.courseURL}} target="_blank">{{stache.jsonData.example.RENE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Administration</sky-repeater-item-title>
+          <sky-repeater-item-content>
+              <ul>
+                  <li><a href={{stache.jsonData.example.SYAD.courseURL}} target="_blank">{{stache.jsonData.example.SYAD.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </sky-repeater-item-content>
+      </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Stewardship</sky-repeater-item-title>
+        <sky-repeater-item-content>
+            <ul>
+                <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+        </sky-repeater-item-content>
+    </sky-repeater-item>
+  </sky-repeater>
+
+</stache>

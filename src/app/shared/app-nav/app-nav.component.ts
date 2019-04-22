@@ -12,8 +12,8 @@ export class AppNavComponent {
       path: '/'
     },
     {
-      name: 'Raisers Edge NXT',
-      path: '/renxt'
+      name: 'Blackbaud Award Management',
+      path: '/bbam'
     },
     {
       name: 'Support',
