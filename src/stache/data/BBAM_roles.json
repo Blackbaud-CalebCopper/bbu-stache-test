@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Opportunity Administrator",
+    "path": "/bbam/opp-admin",
+    "icon": "",
+    "summary": "Learn how to create and manage portfolios, opportunities, and applications"
+  },
+  {
+    "name": "Stewardship Administrator",
+    "path": "/bbam/stew-admin",
+    "icon": "",
+    "summary": "Learn how to manage your Stewardship portal."
+  },
+  {
+    "name": "System Administrator",
+    "path": "/bbam/system-admin",
+    "icon": "",
+    "summary": "Learn how to manage your database"
+  },
+  {
+    "name": "Full Course Listings",
+    "path": "/bbam/full-courses",
+    "icon": "",
+    "summary": "See all of our Blackbaud Award Management training courses."
+  }
+]

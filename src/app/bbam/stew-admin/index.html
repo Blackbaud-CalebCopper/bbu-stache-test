@@ -1,0 +1,38 @@
+<app-nav>
+</app-nav>
+
+<stache
+  pageTitle="Stewardship Administrator"
+  showTableOfContents="true"
+  navOrder="3" >
+
+  <stache-page-summary>Stewardship administrators typically create and manage donor profiles and contacts. They also edit and publish fund snapshots, receipients, and disbursements and send out updates and reports to donor contacts. Take the following classes to improve your skills.</stache-page-summary>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>OR</p>
+        <ul>
+          <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Stewardship</sky-repeater-item-title>
+        <sky-repeater-item-content>
+            <ul>
+                <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+        </sky-repeater-item-content>
+    </sky-repeater-item>
+  </sky-repeater>
+
+
+
+</stache>
