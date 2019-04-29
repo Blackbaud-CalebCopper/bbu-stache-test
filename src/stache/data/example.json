@@ -54,5 +54,10 @@
   {
     "courseName": "System Administration",
     "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d8d44faa2-745f-4b4b-b234-cbf4b6e1f235"
+  },
+  "OBPHIED" :
+  {
+    "courseName": "Organizational Best Practices—Higher Education Scholarships",
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d4d66273a-0d6d-4d40-8fab-4599f89ccbd2"
   }
 }
