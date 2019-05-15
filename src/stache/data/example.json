@@ -17,12 +17,14 @@
   "FUOV":
   {
     "courseName": "Fundamentals—Overview",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d95200110-30c4-4b75-8c20-8d12ea793dfb"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d95200110-30c4-4b75-8c20-8d12ea793dfb",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_FUN_Overview/Blackbaud_Award_Management_FUN_Overview_Abstract.pdf"
   },
   "FUAW":
   {
     "courseName": "Fundamentals—Awarding Cycle",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d7ee5faa0-11d5-4790-b6eb-8957cc178391"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d7ee5faa0-11d5-4790-b6eb-8957cc178391",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_FUN_Awarding_Cycle/Blackbaud_Award_Management_FUN_Awarding_Cycle_Abstract.pdf"
   },
   "CERT":
   {
@@ -33,31 +35,37 @@
   "WRQU":
   {
     "courseName": "Writing Quality Questions and Qualifications",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d6ca727ec-34ac-4f94-a1a8-85b80bafb461"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d6ca727ec-34ac-4f94-a1a8-85b80bafb461",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Writing_Quality_Questions_and_Qualifications/Blackbaud_Award_Management_Writing_Quality_Questions_and_Qualifications_Abstract.pdf"
   },
   "MARE":
   {
     "courseName": "Managing Reviews",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253decc63b42-b536-44ed-b982-ab642787c1d5"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253decc63b42-b536-44ed-b982-ab642787c1d5",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Managing_Reviews/Blackbaud_Award_Management_Managing_Reviews_Abstract.pdf"
   },
   "RENE":
   {
     "courseName": "Renewals",
-    "courseURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Renewals/Blackbaud_Award_Management_Renewals_Abstract.pdf"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253dc8c3fcd9-6166-42fa-99cc-1373c4aca93a",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Renewals/Blackbaud_Award_Management_Renewals_Abstract.pdf"
   },
   "STEW":
   {
     "courseName": "Stewardship",
-    "courseURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_stewardship/Blackbaud_Award_Management_stewardship_Abstract.pdf"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d3ae612b9-e764-438f-a928-0261e551d4bb",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_stewardship/Blackbaud_Award_Management_stewardship_Abstract.pdf"
   },
   "SYAD":
   {
     "courseName": "System Administration",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d8d44faa2-745f-4b4b-b234-cbf4b6e1f235"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d8d44faa2-745f-4b4b-b234-cbf4b6e1f235",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_System_Administration/Blackbaud_Award_Management_System_Administration_Abstract.pdf"
   },
   "OBPHIED" :
   {
     "courseName": "Organizational Best Practices—Higher Education Scholarships",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d4d66273a-0d6d-4d40-8fab-4599f89ccbd2"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d4d66273a-0d6d-4d40-8fab-4599f89ccbd2",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_FUN_Awarding_Cycle/Blackbaud_Award_Management_FUN_Awarding_Cycle_Abstract.pdf"
   }
 }
