@@ -3,10 +3,11 @@
 
 <stache
   pageTitle="Blackbaud Award Management Training Curriculum"
-  showTableOfContents="false"
+  showTableOfContents="true"
   navOrder="1" >
-
-  <stache-page-summary>Welcome to training for Blackbaud Award Management.</stache-page-summary>
+  <sky-alert alertType = 'info'>Not a current Blackbaud customer or don't have a Blackbaud ID? Go to <a stacheRouterLink = '.' fragment = 'full-curriculum' >public-facing course descriptions</a>.</sky-alert>
+  <p>Welcome to training for Blackbaud Award Management.</p>
+  <p>Explore the page below to see which training might benefit your organization.</p>
 
   <stache-page-anchor>
     System Basics
@@ -19,11 +20,63 @@
   </ul>
 
   <stache-page-anchor>
-      Role-Based Course Recommendations
+      Learning Playlists
   </stache-page-anchor>
-    <p>Select your role to see a list of recommended courses</p>
-    <stache-action-buttons [routes] = 'stache.jsonData.BBAM_roles' showSearch = 'false'>
+    <sky-alert alertType = 'info'>All instructor-led courses and regional events require an additional training subscription. Talk to your sales rep about it.</sky-alert>
+    <p>Select a playlist to see a list of recommended courses for your role or certain tasks.</p>
+    <stache-action-buttons [routes] = 'stache.jsonData.BBAM_roles' showSearch = 'true'>
 
     </stache-action-buttons>
+
+  <stache-page-anchor>Full Curriculum</stache-page-anchor>
+
+  <sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <ul>
+          <li>{{stache.jsonData.example.FUOV.courseName}}
+            <p>{{stache.jsonData.example.FUOV.courseDesc}}</p>
+            <a href = {{stache.jsonData.example.FUOV.courseAbstract}}><button type="button" class="sky-btn sky-btn-primary">View Abstract</button></a>
+            <a href = {{stache.jsonData.example.FUOV.courseURL}}><button type="button" class="sky-btn sky-btn-primary">Register</button></a>
+            </li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>OR</p>
+        <ul>
+          <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Build</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.MARE.courseURL}} target="_blank">{{stache.jsonData.example.MARE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.RENE.courseURL}} target="_blank">{{stache.jsonData.example.RENE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Administration</sky-repeater-item-title>
+          <sky-repeater-item-content>
+              <ul>
+                  <li><a href={{stache.jsonData.example.SYAD.courseURL}} target="_blank">{{stache.jsonData.example.SYAD.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </sky-repeater-item-content>
+      </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Stewardship</sky-repeater-item-title>
+        <sky-repeater-item-content>
+            <ul>
+                <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+        </sky-repeater-item-content>
+    </sky-repeater-item>
+  </sky-repeater>
 
 </stache>

@@ -1,26 +1,38 @@
 [
   {
     "name": "Opportunity Administrator",
-    "path": "/bbam/opp-admin",
+    "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#opportunity-administrator",
     "icon": "",
     "summary": "Learn how to create and manage portfolios, opportunities, and applications"
   },
   {
     "name": "Stewardship Administrator",
-    "path": "/bbam/stew-admin",
+    "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#stewardship-administrator",
     "icon": "",
     "summary": "Learn how to manage your Stewardship portal."
   },
   {
     "name": "System Administrator",
-    "path": "/bbam/system-admin",
+    "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#system-administrator",
     "icon": "",
     "summary": "Learn how to manage your database"
   },
   {
-    "name": "Full Course Listings",
-    "path": "/bbam/full-courses",
+    "name": "Set Up Your General Application",
+    "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#set-up-your-general-application",
     "icon": "",
-    "summary": "See all of our Blackbaud Award Management training courses."
+    "summary": "Set up your general application for your applicants."
+  },
+  {
+    "name": "Create Renewable Awards",
+    "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#create-renewable-awards",
+    "icon": "",
+    "summary": "Learn how to set up awards that can disburse funds for multiple years."
+  },
+  {
+    "name": "Steward Your Donors",
+    "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#steward-your-donors",
+    "icon": "",
+    "summary": "Learn how to use the Stewardship part of your system."
   }
 ]

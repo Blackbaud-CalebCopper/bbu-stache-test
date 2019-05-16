@@ -1,0 +1,229 @@
+<app-nav>
+</app-nav>
+
+<stache
+  pageTitle="Learning Playlists"
+  showTableOfContents="true"
+  navOrder="1" >
+
+<stache-page-summary>Choose a learning playlist to see a list of recommended courses for your role or specific tasks.</stache-page-summary>
+
+<stache-page-anchor>Opportunity Administrator</stache-page-anchor>
+
+<p>Opportunity administrators typically create and manage portfolios, opportunities, and applications. They may also build and administer review committees and make award offers to students. Take the following classes to improve your skills.</p>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>OR</p>
+        <ul>
+          <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Build</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.MARE.courseURL}} target="_blank">{{stache.jsonData.example.MARE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.RENE.courseURL}} target="_blank">{{stache.jsonData.example.RENE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+</sky-repeater>
+
+<stache-page-anchor>Stewardship Administrator</stache-page-anchor>
+
+<p>Stewardship administrators typically create and manage donor profiles and contacts. They also edit and publish fund snapshots, receipients, and disbursements and send out updates and reports to donor contacts. Take the following classes to improve your skills.</p>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>OR</p>
+        <ul>
+          <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Stewardship</sky-repeater-item-title>
+        <sky-repeater-item-content>
+            <ul>
+                <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+        </sky-repeater-item-content>
+    </sky-repeater-item>
+  </sky-repeater>
+
+<stache-page-anchor>System Administrator</stache-page-anchor>
+
+<p>System administrators typically maintain their database, including system configuration and global processes. Take the following classes to improve your skills.</p>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>OR</p>
+        <ul>
+          <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Build</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <ul>
+              <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.MARE.courseURL}} target="_blank">{{stache.jsonData.example.MARE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              <li><a href={{stache.jsonData.example.RENE.courseURL}} target="_blank">{{stache.jsonData.example.RENE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>System Administration</sky-repeater-item-title>
+          <sky-repeater-item-content>
+              <ul>
+                  <li><a href={{stache.jsonData.example.SYAD.courseURL}} target="_blank">{{stache.jsonData.example.SYAD.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </sky-repeater-item-content>
+      </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Stewardship</sky-repeater-item-title>
+        <sky-repeater-item-content>
+            <ul>
+                <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+        </sky-repeater-item-content>
+    </sky-repeater-item>
+  </sky-repeater>
+
+
+<stache-page-anchor>Set Up Your General Application</stache-page-anchor>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Step 1: Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <p>As with most tasks, you'll want to start with the Fundamentals. Then, you'll understand how everything works in your system.</p>
+
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Step 2: Questions</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <p>Then, you'll need to know how questions work, both adding them and maintaining them in your system</p>
+            <ul>
+              <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Step 3: System Administrator Tasks</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <p>Finally, you'll need to learn more about your role as a system administrator and the special privileges you'd have there.</p>
+              <ul>
+                  <li><a href={{stache.jsonData.example.SYAD.courseURL}} target="_blank">{{stache.jsonData.example.SYAD.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </sky-repeater-item-content>
+      </sky-repeater-item>
+  </sky-repeater>
+
+<stache-page-anchor>Create Renewable Awards</stache-page-anchor>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Step 1: Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <p>As with most tasks, you'll want to start with the Fundamentals. Then, you will understand how everything works in your system.</p>
+
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Step 2: Questions</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <p>Then, you'll need to know how questions and qualifications work, both adding them and maintaining them in your system</p>
+            <ul>
+              <li><a href={{stache.jsonData.example.WRQU.courseURL}} target="_blank">{{stache.jsonData.example.WRQU.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Step 3: Renewable Awards</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <p>Finally, you'll need to learn about the specifics of renewable awards.</p>
+              <ul>
+                  <li><a href={{stache.jsonData.example.RENE.courseURL}} target="_blank">{{stache.jsonData.example.RENE.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </sky-repeater-item-content>
+      </sky-repeater-item>
+  </sky-repeater>
+
+<stache-page-anchor>Steward Your Donors</stache-page-anchor>
+
+<sky-repeater expandMode="multiple">
+    <sky-repeater-item [isExpanded]="false">
+      <sky-repeater-item-title>Step 1: Fundamentals</sky-repeater-item-title>
+      <sky-repeater-item-content>
+        <p>As with most tasks, you'll want to start with the Fundamentals. Then, you will understand how everything works in your system.</p>
+
+        <ul>
+          <li><a href={{stache.jsonData.example.FUOV.courseURL}} target="_blank">{{stache.jsonData.example.FUOV.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a href={{stache.jsonData.example.FUAW.courseURL}} target="_blank">{{stache.jsonData.example.FUAW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Step 2: How to Steward Donors</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <p>This way, you'll know the best practices for stewarding your organization's donors</p>
+            <ul>
+              <li><a href={{stache.jsonData.example.OBPHIED.courseURL}} target="_blank">{{stache.jsonData.example.OBPHIED.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+      </sky-repeater-item-content>
+    </sky-repeater-item>
+
+    <sky-repeater-item [isExpanded]="false">
+        <sky-repeater-item-title>Step 3: Using Stewardship Functionality</sky-repeater-item-title>
+          <sky-repeater-item-content>
+            <p>Finally, you'll need to learn how you can achieve those goals with the Stewardship components of your system.</p>
+              <ul>
+                  <li><a href={{stache.jsonData.example.STEW.courseURL}} target="_blank">{{stache.jsonData.example.STEW.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+              </ul>
+          </sky-repeater-item-content>
+      </sky-repeater-item>
+  </sky-repeater>
+
+</stache>
