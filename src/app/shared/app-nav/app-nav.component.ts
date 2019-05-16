@@ -12,7 +12,7 @@ export class AppNavComponent {
       path: '/'
     },
     {
-      name: 'Blackbaud Award Management',
+      name: 'Award Management',
       path: '/bbam'
     },
     {

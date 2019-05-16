@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Raiser's Edge",
+    "path": "/",
+    "icon": "",
+    "summary": "A database tool"
+  },
+  {
+    "name": "Raiser's Edge NXT",
+    "path": "/",
+    "icon": "",
+    "summary": "That other, slightly different database tool that includes the previous one."
+  },
+  {
+    "name": "Sphere",
+    "path": "/",
+    "icon": "",
+    "summary": "Please... not Sphere!"
+  },
+  {
+    "name": "Financial Edge",
+    "path": "/",
+    "icon": "",
+    "summary": "Trust but Verify"
+  },
+  {
+    "name": "FIMS",
+    "path": "/",
+    "icon": "",
+    "summary": "Where did all the CPAs go?"
+  },
+  {
+    "name": "Luminate Online",
+    "path": "/",
+    "icon": "",
+    "summary": "Update free since 2003"
+  },
+  {
+    "name": "NetCommunity",
+    "path": "/",
+    "icon": "",
+    "summary": "It integrates with RE... that's something!"
+  },
+  {
+    "name": "Award Management",
+    "path": "/bbam",
+    "icon": "",
+    "summary": "I'm the only link that actually works."
+  }
+]
