@@ -14,16 +14,16 @@
   </stache-page-anchor>
   <p>For quick overviews of system functionality, check out our eLearning courses.</p>
   <ul>
-    <li><a href={{stache.jsonData.example.basicsBBAM.courseURL}} target="_blank">{{stache.jsonData.example.basicsBBAM.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-    <li><a href={{stache.jsonData.example.basicsQUES.courseURL}} target="_blank">{{stache.jsonData.example.basicsQUES.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-    <li><a href={{stache.jsonData.example.basicsREVI.courseURL}} target="_blank">{{stache.jsonData.example.basicsREVI.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    <li><a href={{stache.jsonData.example.basicsBBAM.courseURL}}>{{stache.jsonData.example.basicsBBAM.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    <li><a href={{stache.jsonData.example.basicsQUES.courseURL}}>{{stache.jsonData.example.basicsQUES.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    <li><a href={{stache.jsonData.example.basicsREVI.courseURL}}>{{stache.jsonData.example.basicsREVI.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
   </ul>
 
   <stache-page-anchor>
       Learning Playlists
   </stache-page-anchor>
     <sky-alert alertType = 'info'>All instructor-led courses and regional events require an additional training subscription. Talk to your sales rep about it.</sky-alert>
-    <p>Select a playlist to see a list of recommended courses for your role or certain tasks.</p>
+    <p>Select a playlist to see a list of recommended courses for your role and other tasks.</p>
     <stache-action-buttons [routes] = 'stache.jsonData.BBAM_roles' showSearch = 'true'>
 
     </stache-action-buttons>
