@@ -18,6 +18,6 @@ export class AppNavComponent {
     {
       name: 'Support',
       path: '/support'
-    },
+    }
   ];
 }
