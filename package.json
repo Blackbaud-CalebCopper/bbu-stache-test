@@ -15,10 +15,15 @@
   "license": "MIT",
   "dependencies": {
     "@blackbaud/skyux": "2.47.0",
-    "@blackbaud/stache": "2.17.0"
+    "@blackbaud/stache": "2.17.0",
+    "@skyux/inline-form": "3.0.0",
+    "@skyux/list-builder": "3.2.3",
+    "@skyux/list-builder-view-checklist": "3.1.2",
+    "@skyux/list-builder-view-grids": "3.2.0",
+    "@skyux/lists": "3.2.2"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.33.1"
+    "@blackbaud/skyux-builder": "^1.35.0"
   },
   "repository": {
     "type": "git",
