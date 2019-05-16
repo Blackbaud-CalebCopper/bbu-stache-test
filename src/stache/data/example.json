@@ -2,62 +2,83 @@
   "basicsBBAM" :
   {
     "courseName": "Basics of Blackbaud Award Management",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d81e2243a-f93e-44c6-a6c2-f093bf045983"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d81e2243a-f93e-44c6-a6c2-f093bf045983",
+    "courseDesc": "Learn how and where to start exploring your Award Management system, including the awarding cycle, opportunities and applications, application categories, and archive and cycle management."
   },
   "basicsQUES" :
   {
     "courseName": "Basics of Questions and Qualifications",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253dbe2e0073-da23-4c5a-ae89-6bed7dfb486b"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253dbe2e0073-da23-4c5a-ae89-6bed7dfb486b",
+    "courseDesc": "Learn how to use questions and qualifications to streamline the award management process, including setting minimum requirements for opportunities, gathering information from applicants, and matching applicants to recommended opportunities."
   },
   "basicsREVI" :
   {
     "courseName": "Basics of Reviews",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d3ea1aac7-716a-4a79-ad97-05c326e126a7"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d3ea1aac7-716a-4a79-ad97-05c326e126a7",
+    "courseDesc": "Learn how to streamline your reviewing process with Blackbaud Award Management, including the reviewer experience, the reviewer group template, setting up questions and rubrics, and reviewer group assignments."
   },
   "FUOV":
   {
     "courseName": "Fundamentals—Overview",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d95200110-30c4-4b75-8c20-8d12ea793dfb"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d95200110-30c4-4b75-8c20-8d12ea793dfb",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_FUN_Overview/Blackbaud_Award_Management_FUN_Overview_Abstract.pdf",
+    "courseDesc": "Explore the awarding process and discover how you can manage your portfolios and applications most effectively. Learn to navigate the system as both an applicant and administrator and leave with a strong understanding of the initial steps to every awarding process."
   },
   "FUAW":
   {
     "courseName": "Fundamentals—Awarding Cycle",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d7ee5faa0-11d5-4790-b6eb-8957cc178391"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d7ee5faa0-11d5-4790-b6eb-8957cc178391",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_FUN_Awarding_Cycle/Blackbaud_Award_Management_FUN_Awarding_Cycle_Abstract.pdf",
+    "courseDesc": "Learn what it takes to create a successful pre- and post-acceptance process. Decide when and how to send offers, manage post-acceptance, and prepare your opportunities to be archived. "
   },
   "CERT":
   {
     "courseName": "Fundamentals Exam",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d5dfcedd9-06b5-45ab-9721-9739abcb155c"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d5dfcedd9-06b5-45ab-9721-9739abcb155c",
+    "courseAbstract": "https://www.google.com",
+    "courseDesc": "Take the fundamentals exam to prove your knowledge of Blackbaud Award Management."
   },
 
   "WRQU":
   {
     "courseName": "Writing Quality Questions and Qualifications",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d6ca727ec-34ac-4f94-a1a8-85b80bafb461"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d6ca727ec-34ac-4f94-a1a8-85b80bafb461",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Writing_Quality_Questions_and_Qualifications/Blackbaud_Award_Management_Writing_Quality_Questions_and_Qualifications_Abstract.pdf",
+    "courseDesc": "Learn how to streamline your application and review processes with questions and qualifications. Identify when (and where) to use different types of questions. Build custom qualifications to narrow down applicant pools. Combine the two to make sure the best applicants are matched to each opportunity."
   },
   "MARE":
   {
     "courseName": "Managing Reviews",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253decc63b42-b536-44ed-b982-ab642787c1d5"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253decc63b42-b536-44ed-b982-ab642787c1d5",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Managing_Reviews/Blackbaud_Award_Management_Managing_Reviews_Abstract.pdf",
+    "courseDesc": "Learn how to set up your reviewers for success with customized reviewer groups. Build and clone reviewer groups. Distribute applications efficiently. Standardize evaluations and scoring criteria. Discuss best practices for using reviewer chairs and blind reviews."
   },
   "RENE":
   {
     "courseName": "Renewals",
-    "courseURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Renewals/Blackbaud_Award_Management_Renewals_Abstract.pdf"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253dc8c3fcd9-6166-42fa-99cc-1373c4aca93a",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_Renewals/Blackbaud_Award_Management_Renewals_Abstract.pdf",
+    "courseDesc": "Learn how to streamline the renewal process with Blackbaud Award Management. Automate renewal applications and compliance checks. Review applications and distribute awards. Adjust to unique situations with selective renewals and custom categories."
   },
   "STEW":
   {
     "courseName": "Stewardship",
-    "courseURL": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_stewardship/Blackbaud_Award_Management_stewardship_Abstract.pdf"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d3ae612b9-e764-438f-a928-0261e551d4bb",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_stewardship/Blackbaud_Award_Management_stewardship_Abstract.pdf",
+    "courseDesc": "Learn how to share your success with your donors through the Stewardship portal. Manage donor funds and contacts. Keep your donors informed with updates and reports. Control what information donors see using customized fields."
   },
   "SYAD":
   {
     "courseName": "System Administration",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d8d44faa2-745f-4b4b-b234-cbf4b6e1f235"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d8d44faa2-745f-4b4b-b234-cbf4b6e1f235",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_System_Administration/Blackbaud_Award_Management_System_Administration_Abstract.pdf",
+    "courseDesc": "Learn how to navigate system administration responsibly in AcademicWorks. Define roles and scopes for system users. Create custom categories to streamline the application process. Set up system-wide correspondence."
   },
   "OBPHIED" :
   {
     "courseName": "Organizational Best Practices—Higher Education Scholarships",
-    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d4d66273a-0d6d-4d40-8fab-4599f89ccbd2"
+    "courseURL": "https://www.blackbaud.com/training/csodsso.aspx?ReturnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d4d66273a-0d6d-4d40-8fab-4599f89ccbd2",
+    "courseAbstract": "https://www.blackbaud.com/files/training/jobaids/CSOD/BBAM/Blackbaud_Award_Management_FUN_Awarding_Cycle/Blackbaud_Award_Management_FUN_Awarding_Cycle_Abstract.pdf",
+    "courseDesc": ""
   }
 }
