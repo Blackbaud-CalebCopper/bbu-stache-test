@@ -34,5 +34,11 @@
     "path": "https://host.nxt.blackbaud.com/bbu-stache-test/bbam/playlists#steward-your-donors",
     "icon": "",
     "summary": "Learn how to use the Stewardship part of your system."
+  },
+  {
+    "name": "Full Curriculum",
+    "path": "/full-curriculum",
+    "icon": "",
+    "summary": "See our entire curriculum for Blackbaud Award Management."
   }
 ]
