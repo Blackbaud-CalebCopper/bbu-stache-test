@@ -22,16 +22,16 @@
   </stache-page-anchor>
   <sky-alert alertType = 'info'>All instructor-led courses and regional events require an additional training subscription. Talk to your sales rep about it.</sky-alert>
 
-        <p>{{stache.jsonData.example.FUOV.courseName}}<p>
+        <h3>{{stache.jsonData.example.FUOV.courseName}}</h3>
             <p>{{stache.jsonData.example.FUOV.courseDesc}}</p>
             <a href = {{stache.jsonData.example.FUOV.courseAbstract}}><button type="button" class="sky-btn sky-btn-primary">View Abstract</button></a>
             <a href = {{stache.jsonData.example.FUOV.courseURL}}><button type="button" class="sky-btn sky-btn-primary">Register</button></a>
 
-            <p>{{stache.jsonData.example.FUAW.courseName}}</p>
+            <h3>{{stache.jsonData.example.FUAW.courseName}}</h3>
                 <p>{{stache.jsonData.example.FUAW.courseDesc}}</p>
                 <a href = {{stache.jsonData.example.FUAW.courseAbstract}}><button type="button" class="sky-btn sky-btn-primary">View Abstract</button></a>
                 <a href = {{stache.jsonData.example.FUAW.courseURL}}><button type="button" class="sky-btn sky-btn-primary">Register</button></a>
-        <h1>End of Prototype Page</h1>
+
 
         <stache-page-anchor>
           System Build
@@ -44,6 +44,8 @@
         <stache-page-anchor>
           System Administration
         </stache-page-anchor>
+
+        <h1>End of Prototype Page</h1>
 
        <!--  <ul>
           <li><a href={{stache.jsonData.example.CERT.courseURL}} target="_blank">{{stache.jsonData.example.CERT.courseName}}<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
